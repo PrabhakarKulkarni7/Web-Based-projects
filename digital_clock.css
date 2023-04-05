@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://wallpaperaccess.com/full/84248.png");
+    background-size: cover;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 03px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    color: black;
+    font-size: 25px;
+}
+
+.clock{
+    display: flex;
+ 
+}
+
+.clock div{
+    margin: 07px;
+    position: relative;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: black;
+ }
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color:black;
+    color: white;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 4px ;
+}
+
+.clock .text
+{
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkcyan;
+    opacity: 0.8;
+    
+}
+
+.hotth #ampm{
+    background-color: black;
+    color: white;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 420px;
+    margin-top: -48px;
+    border-color: black;
+}
